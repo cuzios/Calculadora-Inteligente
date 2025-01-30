@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Inteligente</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Calculadora de Produtos</h1>
+        <p>Valor do G3: R$ 780,00</p>
+        <p>Valor do Five Seven: R$ 562,00</p>
+
+        <label for="quantity">Quantidade de G3:</label>
+        <input type="number" id="quantity" value="15" min="1">
+
+        <button onclick="calculate()">Calcular</button>
+
+        <h2>Resultados:</h2>
+        <p id="resultG3"></p>
+        <p id="result100"></p>
+        <p id="result90"></p>
+        <p id="result80"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
